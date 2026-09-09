@@ -4,7 +4,7 @@
 
 A Python and Streamlit project that imports job opportunities, removes duplicates, explains role fit, selects a CV profile, and builds application documents. SQLite keeps the workflow and its history in one place.
 
-**Portfolio edition Ã‚Â· Fictional demo data Ã‚Â· No credentials needed for the demo**
+**Portfolio edition | Fictional demo data | No credentials needed for the demo**
 
 ## Why this project exists
 

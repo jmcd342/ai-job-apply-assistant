@@ -10,11 +10,11 @@ import streamlit as st
 from demo import build_demo
 from src.document_generator import DocumentGenerator
 
-st.set_page_config(page_title="Job Apply Assistant | Portfolio", page_icon="📋", layout="wide")
+st.set_page_config(page_title="Job Apply Assistant | Portfolio", page_icon=":clipboard:", layout="wide")
 st.caption("PYTHON  /  SQLITE  /  STREAMLIT")
 st.title("From job lead to application packet")
 st.write("Explore an explainable application workflow, using fictional roles and the real project pipeline.")
-st.info("Portfolio demo · Fictional candidate and employers · No sign-in or application submission")
+st.info("Portfolio demo | Fictional candidate and employers | No sign-in or application submission")
 
 if "portfolio_demo" not in st.session_state:
     temporary = tempfile.TemporaryDirectory(prefix="job-portfolio-ui-")
@@ -49,13 +49,13 @@ with detail:
         matched = json.loads(matched)
     st.write("**Matched signals:** " + (", ".join(matched) or "See score details in the core module."))
     st.write("**Role family:** " + str(job.get("role_family") or "Unclassified").replace("_", " ").title())
-    st.caption("Cleaning → duplicate check → SQLite → scoring → CV selection → document packet")
+    st.caption("Cleaning > duplicate check > SQLite > scoring > CV selection > document packet")
 
 st.divider()
 st.subheader("Build a review packet")
 st.write("Generate a sample cover letter, interview notes, and application rationale. The sample CV is a fallback profile summary because private CV files are excluded.")
 if st.button("Generate fictional application packet", type="primary"):
-    with st.spinner("Building packet with the project document generator…"):
+    with st.spinner("Building packet with the project document generator..."):
         DocumentGenerator(database, root).generate_for_job(selected)
 packet_dir = root / "applications" / str(selected)
 if (packet_dir / "application_packet.md").exists():
