@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Business Intelligence Analyst",
+    "company": "Harbour Metrics (fictional)",
+    "location": "Auckland",
+    "salary": "$90,000 - $110,000",
+    "description": "Build Power BI dashboards and SQL reporting for operational teams. Work with stakeholders to define KPIs, improve data quality, automate reporting, and communicate business insights. Python and data modelling experience are useful.",
+    "source": "manual",
+    "url": "https://example.com/jobs/1"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "Kauri Data Studio (fictional)",
+    "location": "Auckland",
+    "salary": "$100,000 - $125,000",
+    "description": "Develop Python and SQL ETL pipelines on Azure. Maintain data models, improve data quality, and support analytics teams. Experience with Databricks, Spark, orchestration and cloud data platforms is desirable.",
+    "source": "manual",
+    "url": "https://example.com/jobs/2"
+  },
+  {
+    "title": "Workflow Automation Analyst",
+    "company": "Southern Systems (fictional)",
+    "location": "Auckland",
+    "salary": "$85,000 - $105,000",
+    "description": "Build Python workflow automation and Streamlit internal tools. Work with business stakeholders to improve reporting, integrate APIs, maintain SQLite datasets, and document repeatable data processes.",
+    "source": "manual",
+    "url": "https://example.com/jobs/3"
+  }
+]
