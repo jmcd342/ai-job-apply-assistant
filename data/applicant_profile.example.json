@@ -1,0 +1,57 @@
+{
+  "date_of_birth": "1990-01-01",
+  "right_to_work_nz": "New Zealand citizen",
+  "drivers_licence": {
+    "nz_current": true
+  },
+  "skills_years": {
+    "sql": 3,
+    "power bi": 2,
+    "business intelligence": 2,
+    "python": 2,
+    "business analysis": 2,
+    "data analysis": 3,
+    "analytics": 3,
+    "data engineering": 1
+  },
+  "industry_experience_years": 3,
+  "experience_notes": {
+    "payroll_direct_experience": false,
+    "payroll_related_answer": "I do not have direct payroll ownership experience, but I have supported data validation, reporting, and process analysis work in adjacent business areas."
+  },
+  "notice_period_weeks": 2,
+  "selection_process": {
+    "comfortable_with_psychometric_assessment": true
+  },
+  "skills_experience_years": {
+    "sql": 3,
+    "power bi": 2,
+    "power query": 2,
+    "python": 2,
+    "data analysis": 3,
+    "business analysis": 2,
+    "reporting": 3,
+    "dashboards": 2
+  },
+  "automation": {
+    "pause_on_unknown_questions": true,
+    "allow_reasonable_fallback_answers": false,
+    "allow_no_resume": false,
+    "allow_delete_old_seek_resumes": false,
+    "resume_debug_dom_snapshots": false,
+    "close_browser_on_success": true,
+    "keep_browser_open_on_failure": false,
+    "seek_browser_profile_path": "data/browser_profiles/seek_seeded",
+    "seek_bulk_browser_profile_path": "data/browser_profiles/seek_apply_bulk",
+    "seek_browser_channels": [
+      "chrome"
+    ]
+  },
+  "qualifications": {
+    "ict": true,
+    "statistics": false,
+    "data_science": false,
+    "operations_research": false
+  },
+  "highest_education_level": "bachelors"
+}

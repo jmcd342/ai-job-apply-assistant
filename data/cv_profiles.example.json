@@ -1,0 +1,54 @@
+{
+  "profiles": [
+    {
+      "profile_name": "analytics_engineer_bi_cv",
+      "file_path": "data/cv_variants/analytics_engineer_bi_cv.docx",
+      "target_roles": [
+        "business intelligence",
+        "reporting analyst",
+        "data analyst"
+      ],
+      "keywords": [
+        "sql",
+        "power bi",
+        "reporting",
+        "analytics"
+      ],
+      "positioning_summary": "Broad analytics and BI profile for reporting-heavy roles.",
+      "strengths": [
+        "dashboard delivery",
+        "stakeholder reporting",
+        "sql and data analysis"
+      ],
+      "weaknesses": [
+        "less suitable for infrastructure-heavy engineering roles"
+      ],
+      "when_to_use": "Use for analytics, BI, reporting, and general business data roles."
+    },
+    {
+      "profile_name": "data_engineer_cv",
+      "file_path": "data/cv_variants/data_engineer_cv.docx",
+      "target_roles": [
+        "data engineer",
+        "etl developer",
+        "migration engineer"
+      ],
+      "keywords": [
+        "etl",
+        "python",
+        "sql",
+        "automation"
+      ],
+      "positioning_summary": "Technical data workflow profile for migration and engineering roles.",
+      "strengths": [
+        "automation",
+        "data movement",
+        "technical troubleshooting"
+      ],
+      "weaknesses": [
+        "less suitable for pure finance or strategy roles"
+      ],
+      "when_to_use": "Use for data migration, ETL, integration, and engineering roles."
+    }
+  ]
+}
